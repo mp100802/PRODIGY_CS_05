@@ -22,7 +22,6 @@ def packet_callback(packet):
 
 print("Starting packet sniffing... Press Ctrl+C to stop.")
 
-# Set the socket to Layer 3
 conf.L3socket
 
 try:
